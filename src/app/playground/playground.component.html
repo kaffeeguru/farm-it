@@ -1,0 +1,14 @@
+<p>playground works!</p>
+
+<div *ngIf="tileEditing">Editor!</div>
+
+
+<h2>My Farm</h2>
+<div class="tiles">
+    <div class="tiles-row" *ngFor="let rowItems of tiles" >
+        <div class="tile type-{{tile.type}}" *ngFor="let tile of rowItems" (click)="chooseType(tile)" >
+            <span class="type">{{tile.type}}</span>
+        </div>
+        <br/>
+    </div>
+</div>

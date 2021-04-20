@@ -1,0 +1,35 @@
+
+.tile {
+    border: 1px solid black;
+    display:inline-block;
+    width: 150px;
+    height: 150px;
+}
+.type-Kartoffeln {
+    background-color: sandybrown;
+}
+
+.type-Zwiebeln {
+    background-color:yellow;
+}
+
+.type-Weg {
+    background-color: grey;
+}
+
+.type-Karotten {
+    background-color: darkred;
+}
+
+.type-Tomaten {
+    background-color: red;
+}
+
+.type-Erbsen {
+    background-color: green;
+}
+
+.type-Erde {
+    background-color: saddlebrown;
+}
+
