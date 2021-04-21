@@ -37,6 +37,10 @@ export class PlaygroundComponent implements OnInit {
   ];
 
   tileEditing: Tile;
+
+  tileTypes: string[] = [
+    'Zwiebeln', 'Kartoffeln', 'Karotten', 'Weg'
+  ]
   
 
 }

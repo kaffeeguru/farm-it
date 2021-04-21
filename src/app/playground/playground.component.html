@@ -1,6 +1,11 @@
 <p>playground works!</p>
 
-<div *ngIf="tileEditing">Editor!</div>
+<div *ngIf="tileEditing">Editor: {{tileEditing | json}}
+  <label for="type">Wähle die Bepflanzung:</label>
+  <select id="type" [(ngModel)]="tileEditing.type" name="type" placeholder="Whoot">
+    <option *ngFor="let type of tileTypes" [ngValue]="type">{{type}}</option>
+  </select>
+</div>
 
 
 <h2>My Farm</h2>
